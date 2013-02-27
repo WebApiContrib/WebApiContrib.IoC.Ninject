@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-If you would like to use Ninject as your Inversion of Control Container inside your ASP.NET Web API application, this library will make things simple. Here are the steps to getting started on a new project with [WebApiContrib.IoC.Ninject](/).
+If you would like to use [Ninject](http://www.ninject.org/) as your Inversion of Control Container inside your ASP.NET Web API application, this library will make things simple. Here are the steps to getting started on a new project with [WebApiContrib.IoC.Ninject](/).
 
 ***1. Create new project***
 
@@ -56,3 +56,5 @@ Fairly simple, right? After bringing this code into your project, you can now le
 If you're in need of any assistance, your fastest method to get in touch with somebody that might be able to help is through the WebApiContrib mailing list: https://groups.google.com/group/webapicontrib
 
 Another great way is to [leave an issue](https://github.com/WebApiContrib/WebApiContrib.IoC.Ninject/issues) on the GitHub repository.
+
+For Ninject specific questions, please see the [Ninject documentation](http://www.ninject.org/learn).
