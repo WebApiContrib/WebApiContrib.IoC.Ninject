@@ -23,10 +23,6 @@ namespace WebApiContrib.IoC.Ninject
 
 		public void Dispose()
 		{
-			IDisposable disposable = resolver as IDisposable;
-			if (disposable != null)
-				disposable.Dispose();
-
 			resolver = null;
 		}
 
@@ -59,7 +55,7 @@ namespace WebApiContrib.IoC.Ninject
 
 		public IDependencyScope BeginScope()
 		{
-			return new NinjectDependencyScope(kernel.BeginBlock());
+			return new NinjectDependencyScope(kernel);
 		}
 	}
 }
