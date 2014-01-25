@@ -4,7 +4,7 @@ Properties {
 	$build_artifacts_dir = "$base_dir\build"
 	$solution_name = "$base_dir\WebApiContrib.IoC.Ninject.sln"
 	$test_dll = "$build_artifacts_dir\WebApiContrib.IoC.Ninject.Tests.dll"
-	$nunit_runner = "$packages_dir\NUnit.Runners.2.6.0.12051\tools"
+	$nunit_runner = "$packages_dir\NUnit.Runners.2.6.3\tools"
 	$nunit_build_destination = "$build_artifacts_dir\tools\nunit"
 	$nunitConsole = "$nunit_build_destination\nunit-console.exe"
 	$nuget_exe = "$base_dir\.nuget\Nuget.exe"
